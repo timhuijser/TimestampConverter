@@ -17,9 +17,9 @@
     // Do any additional setup after loading the view.
     self.previousTimestamps = [[NSMutableArray alloc] init];
     
-    Timestamp *samplePreviousTimestamp1 = [[Timestamp alloc] initWithDate:[NSDate date]];
-    NSMutableArray *samplePreviousTimestamps = [NSMutableArray arrayWithObjects:samplePreviousTimestamp1, nil];
-    self.previousTimestamps = samplePreviousTimestamps;
+    //Timestamp *samplePreviousTimestamp1 = [[Timestamp alloc] initWithDate:[NSDate date]];
+    //NSMutableArray *samplePreviousTimestamps = [NSMutableArray arrayWithObjects:samplePreviousTimestamp1, nil];
+    //self.previousTimestamps = samplePreviousTimestamps;
 }
 
 - (void)setRepresentedObject:(id)representedObject {
@@ -134,9 +134,20 @@
 
 - (void)addDateToTimestampArray:(NSDate *)date {
     
-    Timestamp *previousTimestamp = [self.previousTimestamps objectAtIndex:0];
-    
-    if (![previousTimestamp.date isEqualToDate:date]) {
+    if ([self.previousTimestamps count] > 0) {
+        
+        Timestamp *previousTimestamp = [self.previousTimestamps objectAtIndex:0];
+        
+        if (![previousTimestamp.date isEqualToDate:date]) {
+            
+            Timestamp *addTimestamp = [[Timestamp alloc] initWithDate:date];
+            [self.previousTimestamps insertObject:addTimestamp atIndex:0];
+            
+            [self.timestampTableView.documentView reloadData];
+            
+        }
+        
+    } else {
         
         Timestamp *addTimestamp = [[Timestamp alloc] initWithDate:date];
         [self.previousTimestamps insertObject:addTimestamp atIndex:0];
