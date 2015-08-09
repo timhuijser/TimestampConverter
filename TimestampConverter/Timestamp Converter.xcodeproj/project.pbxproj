@@ -29,7 +29,7 @@
 /* Begin PBXFileReference section */
 		04D712111B77A31900037F55 /* Timestamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timestamp.h; sourceTree = "<group>"; };
 		04D712121B77A31900037F55 /* Timestamp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timestamp.m; sourceTree = "<group>"; };
-		04F62D691AF037A4004F7B19 /* TimestampConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimestampConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F62D691AF037A4004F7B19 /* Timestamp Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timestamp Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F62D6D1AF037A4004F7B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F62D6E1AF037A4004F7B19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04F62D6F1AF037A4004F7B19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		04F62D741AF037A4004F7B19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		04F62D761AF037A4004F7B19 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		04F62D791AF037A4004F7B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04F62D7F1AF037A4004F7B19 /* TimestampConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimestampConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F62D7F1AF037A4004F7B19 /* Timestamp ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Timestamp ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F62D841AF037A4004F7B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F62D851AF037A4004F7B19 /* TimestampConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimestampConverterTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,8 +82,8 @@
 		04F62D6A1AF037A4004F7B19 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04F62D691AF037A4004F7B19 /* TimestampConverter.app */,
-				04F62D7F1AF037A4004F7B19 /* TimestampConverterTests.xctest */,
+				04F62D691AF037A4004F7B19 /* Timestamp Converter.app */,
+				04F62D7F1AF037A4004F7B19 /* Timestamp ConverterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04F62D681AF037A4004F7B19 /* TimestampConverter */ = {
+		04F62D681AF037A4004F7B19 /* Timestamp Converter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04F62D891AF037A4004F7B19 /* Build configuration list for PBXNativeTarget "TimestampConverter" */;
+			buildConfigurationList = 04F62D891AF037A4004F7B19 /* Build configuration list for PBXNativeTarget "Timestamp Converter" */;
 			buildPhases = (
 				04F62D651AF037A4004F7B19 /* Sources */,
 				04F62D661AF037A4004F7B19 /* Frameworks */,
@@ -144,14 +144,14 @@
 			);
 			dependencies = (
 			);
-			name = TimestampConverter;
+			name = "Timestamp Converter";
 			productName = TimestampConverter;
-			productReference = 04F62D691AF037A4004F7B19 /* TimestampConverter.app */;
+			productReference = 04F62D691AF037A4004F7B19 /* Timestamp Converter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		04F62D7E1AF037A4004F7B19 /* TimestampConverterTests */ = {
+		04F62D7E1AF037A4004F7B19 /* Timestamp ConverterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04F62D8C1AF037A4004F7B19 /* Build configuration list for PBXNativeTarget "TimestampConverterTests" */;
+			buildConfigurationList = 04F62D8C1AF037A4004F7B19 /* Build configuration list for PBXNativeTarget "Timestamp ConverterTests" */;
 			buildPhases = (
 				04F62D7B1AF037A4004F7B19 /* Sources */,
 				04F62D7C1AF037A4004F7B19 /* Frameworks */,
@@ -162,9 +162,9 @@
 			dependencies = (
 				04F62D811AF037A4004F7B19 /* PBXTargetDependency */,
 			);
-			name = TimestampConverterTests;
+			name = "Timestamp ConverterTests";
 			productName = TimestampConverterTests;
-			productReference = 04F62D7F1AF037A4004F7B19 /* TimestampConverterTests.xctest */;
+			productReference = 04F62D7F1AF037A4004F7B19 /* Timestamp ConverterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -185,7 +185,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04F62D641AF037A4004F7B19 /* Build configuration list for PBXProject "TimestampConverter" */;
+			buildConfigurationList = 04F62D641AF037A4004F7B19 /* Build configuration list for PBXProject "Timestamp Converter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -198,8 +198,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04F62D681AF037A4004F7B19 /* TimestampConverter */,
-				04F62D7E1AF037A4004F7B19 /* TimestampConverterTests */,
+				04F62D681AF037A4004F7B19 /* Timestamp Converter */,
+				04F62D7E1AF037A4004F7B19 /* Timestamp ConverterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -248,7 +248,7 @@
 /* Begin PBXTargetDependency section */
 		04F62D811AF037A4004F7B19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04F62D681AF037A4004F7B19 /* TimestampConverter */;
+			target = 04F62D681AF037A4004F7B19 /* Timestamp Converter */;
 			targetProxy = 04F62D801AF037A4004F7B19 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -351,7 +351,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TimestampConverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Timestamp Converter";
 			};
 			name = Debug;
 		};
@@ -362,7 +362,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TimestampConverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Timestamp Converter";
 			};
 			name = Release;
 		};
@@ -381,7 +381,7 @@
 				);
 				INFOPLIST_FILE = TimestampConverterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Timestamp ConverterTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimestampConverter.app/Contents/MacOS/TimestampConverter";
 			};
 			name = Debug;
@@ -397,7 +397,7 @@
 				);
 				INFOPLIST_FILE = TimestampConverterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Timestamp ConverterTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimestampConverter.app/Contents/MacOS/TimestampConverter";
 			};
 			name = Release;
@@ -405,7 +405,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04F62D641AF037A4004F7B19 /* Build configuration list for PBXProject "TimestampConverter" */ = {
+		04F62D641AF037A4004F7B19 /* Build configuration list for PBXProject "Timestamp Converter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04F62D871AF037A4004F7B19 /* Debug */,
@@ -414,7 +414,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04F62D891AF037A4004F7B19 /* Build configuration list for PBXNativeTarget "TimestampConverter" */ = {
+		04F62D891AF037A4004F7B19 /* Build configuration list for PBXNativeTarget "Timestamp Converter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04F62D8A1AF037A4004F7B19 /* Debug */,
@@ -423,7 +423,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04F62D8C1AF037A4004F7B19 /* Build configuration list for PBXNativeTarget "TimestampConverterTests" */ = {
+		04F62D8C1AF037A4004F7B19 /* Build configuration list for PBXNativeTarget "Timestamp ConverterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04F62D8D1AF037A4004F7B19 /* Debug */,

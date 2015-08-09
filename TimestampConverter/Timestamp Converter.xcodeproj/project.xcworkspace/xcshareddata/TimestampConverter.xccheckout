@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AD758F44-12BF-4CA0-A235-2A8A8235C6AD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TimestampConverter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3630F5BF177E7379B32630A97448789E8F020B7A</key>
+		<string>https://github.com/timhuijser/TimestampConverter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TimestampConverter/TimestampConverter.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3630F5BF177E7379B32630A97448789E8F020B7A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/timhuijser/TimestampConverter.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3630F5BF177E7379B32630A97448789E8F020B7A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3630F5BF177E7379B32630A97448789E8F020B7A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TimestampConverter</string>
+		</dict>
+	</array>
+</dict>
+</plist>

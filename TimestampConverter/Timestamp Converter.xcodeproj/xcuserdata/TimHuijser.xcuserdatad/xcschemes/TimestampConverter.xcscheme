@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "04F62D681AF037A4004F7B19"
-               BuildableName = "TimestampConverter.app"
-               BlueprintName = "TimestampConverter"
-               ReferencedContainer = "container:TimestampConverter.xcodeproj">
+               BuildableName = "Timestamp Converter.app"
+               BlueprintName = "Timestamp Converter"
+               ReferencedContainer = "container:Timestamp Converter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "04F62D7E1AF037A4004F7B19"
-               BuildableName = "TimestampConverterTests.xctest"
-               BlueprintName = "TimestampConverterTests"
-               ReferencedContainer = "container:TimestampConverter.xcodeproj">
+               BuildableName = "Timestamp ConverterTests.xctest"
+               BlueprintName = "Timestamp ConverterTests"
+               ReferencedContainer = "container:Timestamp Converter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "04F62D7E1AF037A4004F7B19"
-               BuildableName = "TimestampConverterTests.xctest"
-               BlueprintName = "TimestampConverterTests"
-               ReferencedContainer = "container:TimestampConverter.xcodeproj">
+               BuildableName = "Timestamp ConverterTests.xctest"
+               BlueprintName = "Timestamp ConverterTests"
+               ReferencedContainer = "container:Timestamp Converter.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "04F62D681AF037A4004F7B19"
-            BuildableName = "TimestampConverter.app"
-            BlueprintName = "TimestampConverter"
-            ReferencedContainer = "container:TimestampConverter.xcodeproj">
+            BuildableName = "Timestamp Converter.app"
+            BlueprintName = "Timestamp Converter"
+            ReferencedContainer = "container:Timestamp Converter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "04F62D681AF037A4004F7B19"
-            BuildableName = "TimestampConverter.app"
-            BlueprintName = "TimestampConverter"
-            ReferencedContainer = "container:TimestampConverter.xcodeproj">
+            BuildableName = "Timestamp Converter.app"
+            BlueprintName = "Timestamp Converter"
+            ReferencedContainer = "container:Timestamp Converter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "04F62D681AF037A4004F7B19"
-            BuildableName = "TimestampConverter.app"
-            BlueprintName = "TimestampConverter"
-            ReferencedContainer = "container:TimestampConverter.xcodeproj">
+            BuildableName = "Timestamp Converter.app"
+            BlueprintName = "Timestamp Converter"
+            ReferencedContainer = "container:Timestamp Converter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
