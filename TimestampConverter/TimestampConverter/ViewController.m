@@ -54,7 +54,7 @@
         
     } else {
         
-        self.secondsTextField.bezelStyle
+        // !TODO Add error state.
         
     }
     
@@ -99,11 +99,8 @@
 
 - (NSView *)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row {
     
-    // Get a new ViewCell
     NSTableCellView *cellView = [tableView makeViewWithIdentifier:tableColumn.identifier owner:self];
     
-    // Since this is a single-column table view, this would not be necessary.
-    // But it's a good practice to do it in order by remember it when a table is multicolumn.
     if ([tableColumn.identifier isEqualToString:@"TimestampColumn"]) {
         
         Timestamp *timestamp = [self.previousTimestamps objectAtIndex:row];
@@ -125,7 +122,9 @@
         return cellView;
         
     }
+    
     return cellView;
+    
 }
 
 
