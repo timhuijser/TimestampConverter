@@ -17,6 +17,10 @@
     // Do any additional setup after loading the view.
     self.previousTimestamps = [[NSMutableArray alloc] init];
     
+    // Let button listen to enter key.
+    [self.generateTimestampButton setKeyEquivalent:@"\r"];
+
+    
     //Timestamp *samplePreviousTimestamp1 = [[Timestamp alloc] initWithDate:[NSDate date]];
     //NSMutableArray *samplePreviousTimestamps = [NSMutableArray arrayWithObjects:samplePreviousTimestamp1, nil];
     //self.previousTimestamps = samplePreviousTimestamps;

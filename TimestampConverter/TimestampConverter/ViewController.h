@@ -19,6 +19,7 @@
 @property (weak) IBOutlet NSTextField *minutesTextField;
 @property (weak) IBOutlet NSTextField *secondsTextField;
 @property (weak) IBOutlet NSTextField *timestampTextField;
+@property (weak) IBOutlet NSButton *generateTimestampButton;
 
 @property (strong) NSMutableArray *previousTimestamps;
 @property (weak) IBOutlet NSScrollView *timestampTableView;

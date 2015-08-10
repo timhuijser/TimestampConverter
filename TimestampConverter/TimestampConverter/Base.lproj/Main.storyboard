@@ -672,17 +672,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="523" height="195"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                         <subviews>
-                            <button verticalHuggingPriority="750" id="B7d-YD-0Rg">
-                                <rect key="frame" x="34" y="85" width="169" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="Generate Timestamp" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="3wy-6e-0xF">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="generateTimestampButton:" target="XfG-lQ-9wD" id="Gae-Af-GJn"/>
-                                </connections>
-                            </button>
                             <textField verticalHuggingPriority="750" id="dFB-rv-29p">
                                 <rect key="frame" x="156" y="153" width="60" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -719,8 +708,8 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField verticalHuggingPriority="750" id="VnQ-gD-fr7">
-                                <rect key="frame" x="70" y="49" width="96" height="22"/>
+                            <textField identifier="timestamp" verticalHuggingPriority="750" id="VnQ-gD-fr7">
+                                <rect key="frame" x="66" y="52" width="105" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" placeholderString="Timestamp" bezelStyle="round" id="jcn-aN-085">
                                     <font key="font" metaFont="system"/>
@@ -729,9 +718,9 @@
                                 </textFieldCell>
                             </textField>
                             <button verticalHuggingPriority="750" id="Up6-d8-RHc">
-                                <rect key="frame" x="53" y="13" width="130" height="32"/>
+                                <rect key="frame" x="57" y="17" width="122" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="Generate Date" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="X7G-yV-uxD">
+                                <buttonCell key="cell" type="bevel" title="Generate Date" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="X7G-yV-uxD">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -855,10 +844,22 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <button verticalHuggingPriority="750" id="B7d-YD-0Rg">
+                                <rect key="frame" x="39" y="86" width="158" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="bevel" title="Generate Timestamp" bezelStyle="regularSquare" alignment="center" borderStyle="border" inset="2" id="3wy-6e-0xF">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="generateTimestampButton:" target="XfG-lQ-9wD" id="Gae-Af-GJn"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
                         <outlet property="dayTextField" destination="bug-9m-Ulo" id="fq6-Za-dMQ"/>
+                        <outlet property="generateTimestampButton" destination="B7d-YD-0Rg" id="mgD-fy-CL3"/>
                         <outlet property="hoursTextField" destination="AHE-Tk-vFL" id="B6B-jw-b3V"/>
                         <outlet property="minutesTextField" destination="xYw-oB-erM" id="G8Z-cx-rjZ"/>
                         <outlet property="monthTextField" destination="pKs-p8-WKE" id="4Vt-4e-bQI"/>
