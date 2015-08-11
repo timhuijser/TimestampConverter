@@ -26,7 +26,6 @@
 
 // Open application after closing and clicking dock app icon.
 - (BOOL)applicationShouldHandleReopen:(NSApplication *)application hasVisibleWindows:(BOOL)flag {
-    
     if(!flag) {
         id windowId;
         for(windowId in application.windows) {
