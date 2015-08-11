@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>04FABD31-8BE6-4E27-87BA-5A574928C03E</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Timestamp Converter</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>3630F5BF177E7379B32630A97448789E8F020B7A</key>
 		<string>https://github.com/timhuijser/TimestampConverter.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TimestampConverter/Timestamp Converter.xcodeproj/project.xcworkspace</string>
+	<string>TimestampConverter/Timestamp Converter.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>3630F5BF177E7379B32630A97448789E8F020B7A</key>

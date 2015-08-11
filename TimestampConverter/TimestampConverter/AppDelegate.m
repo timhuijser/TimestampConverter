@@ -24,4 +24,17 @@
     // Insert code here to tear down your application
 }
 
+// Open application after closing and clicking dock app icon.
+- (BOOL)applicationShouldHandleReopen:(NSApplication *)application hasVisibleWindows:(BOOL)flag {
+    
+    if(!flag) {
+        id windowId;
+        for(windowId in application.windows) {
+            NSWindow *window = windowId;
+            [window makeKeyAndOrderFront:self];
+        }
+    }
+    return YES;
+}
+
 @end
