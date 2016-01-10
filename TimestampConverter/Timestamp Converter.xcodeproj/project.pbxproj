@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04AF5AEE1C42DB6200178556 /* Download.zip in Resources */ = {isa = PBXBuildFile; fileRef = 04AF5AED1C42DB6200178556 /* Download.zip */; };
 		04D712131B77A31900037F55 /* Timestamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D712121B77A31900037F55 /* Timestamp.m */; };
 		04F62D701AF037A4004F7B19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F62D6F1AF037A4004F7B19 /* AppDelegate.m */; };
 		04F62D721AF037A4004F7B19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F62D711AF037A4004F7B19 /* main.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04AF5AED1C42DB6200178556 /* Download.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Download.zip; sourceTree = "<group>"; };
 		04D712111B77A31900037F55 /* Timestamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timestamp.h; sourceTree = "<group>"; };
 		04D712121B77A31900037F55 /* Timestamp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timestamp.m; sourceTree = "<group>"; };
 		04F62D691AF037A4004F7B19 /* Timestamp Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timestamp Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +75,7 @@
 		04F62D601AF037A4004F7B19 = {
 			isa = PBXGroup;
 			children = (
+				04AF5AED1C42DB6200178556 /* Download.zip */,
 				04F62D6B1AF037A4004F7B19 /* TimestampConverter */,
 				04F62D821AF037A4004F7B19 /* TimestampConverterTests */,
 				04F62D6A1AF037A4004F7B19 /* Products */,
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F62D771AF037A4004F7B19 /* Images.xcassets in Resources */,
+				04AF5AEE1C42DB6200178556 /* Download.zip in Resources */,
 				04F62D7A1AF037A4004F7B19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
