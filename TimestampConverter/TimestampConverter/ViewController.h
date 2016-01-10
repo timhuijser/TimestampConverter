@@ -24,6 +24,7 @@
 @property (strong) NSMutableArray *previousTimestamps;
 @property (weak) IBOutlet NSScrollView *timestampTableView;
 
+- (IBAction)generateCurrentButton:(id)sender;
 - (IBAction)generateTimestampButton:(id)sender;
 - (IBAction)generateDateButton:(id)sender;
 
